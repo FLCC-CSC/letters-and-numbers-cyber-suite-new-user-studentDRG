@@ -22,7 +22,16 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+name = input('Please enter your name: ')
+user_id = int(input('Please enter your user id: '))
+password = input('Please enter your password: ')
 
+print()
+
+print(f'Welcome, {name}. Your ID is {user_id}.')
+print()
+print('PASSWORD: ')
+print('X' * len(password))
 
 
 
