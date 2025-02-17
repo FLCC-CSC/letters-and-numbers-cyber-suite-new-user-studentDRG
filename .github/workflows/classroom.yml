@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: Test Case 1 [Dave, 12345, abc123]
         setup-command: ''
-        command: python3 cyber_suite_new_user
+        command: python3 cyber_suite_new_user.py
         input: |-
           Dave
           12345
