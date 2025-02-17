@@ -28,6 +28,8 @@ password = input('Please enter your password: ')
 
 print()
 
+
+
 print(f'Welcome, {name}. Your ID is {user_id}.')
 print()
 print('PASSWORD: ')
